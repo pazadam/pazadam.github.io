@@ -18,21 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: "VIA-TARIQ"
+email: "a.pazout@seznam.cz"
+name: "Adam Pažout"
+description: "Research on Roman, Medieval, and Ottoman transport networks in the Levant"
+baseurl: "" # the subpath of your site
+url: "https://pazadam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: Archaeologue1
+#github_username:  pazadam
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+skin: "dirt" # using the 'dirt' skin for a nice earthy look
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,54 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#Site author
+author:
+  name: "Adam Pažout"
+  avatar: "/assets/images/avatar.png"
+  bio: "I am MSCA Fellow at the Universitat Autònoma de Barcelona with project 'VIA-TARIQ: Analysing long-term change and persistency of the Roman road system in the Levant.' My research interests are Roman and post-Roman roads, development of settlement structures, economic history, as well as landscape archaeology and digital methods in archaeological research in general (predominantly GIS and network science)."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:a.pazout@seznam.cz"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pazadam"
+
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/Archaeologue1"
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: single # this can be 'single', 'archive', etc.
+      author_profile: true
+
+navigation:
+  enabled: true
+  data: navigation
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
+
+# Sidebar settings
+sidebar:
+  nav: "main"
+
+paginate: 5
+paginate_path: "/page:num/"

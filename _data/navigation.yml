@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About the project"
+    url: /about_the_project/
+
+  - title: "Resources"
+    url: /resources/
+
+  - title: "My bio"
+    url: /my_bio/
+
+  - title: "My bibliography"
+    url: /bibliography/
