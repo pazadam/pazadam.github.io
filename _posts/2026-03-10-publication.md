@@ -4,7 +4,7 @@ title:  "New publication!"
 date:   2026-03-10
 author_profile: true
 ---
-After more busy months I can finally announce first publication stemming purely from the VIA-TARIQ project! Pažout, A. Using Archaeological Road Data to Evaluate Limits of Topography on Road Location: Roman Roads in the Near East as a Test Case. _J Archaeol Method Theory_ 33, 28 (2026). <https://doi.org/10.1007/s10816-026-09766-4> The article was published in Open Access, so you can reach it without problems on the indicated link.
+After more busy months I can finally announce first publication stemming purely from the VIA-TARIQ project! **Pažout, A. Using Archaeological Road Data to Evaluate Limits of Topography on Road Location: Roman Roads in the Near East as a Test Case. _J Archaeol Method Theory_ 33, 28 (2026).** <https://doi.org/10.1007/s10816-026-09766-4> The article was published in Open Access, so you can reach it without problems on the indicated link.
 
 The idea behind this article is quite simple: since we have digital spatially detailed and accurate data for ancient roads, we should be able to isolate the variables that influenced the location of roads in the landscape from bottom to top, using inductive approach. This sentence also explains why this was not really possible before (at least not at such a scale): until the [Itiner-e](https://itiner-e-org) was released in November 2025 there was no such dataset available for this kind of inquiry.
 
