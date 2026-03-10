@@ -4,6 +4,12 @@ permalink: /bibliography/
 layout: single
 author_profile: true
 ---
+Pažout, A. (2026): Using Archaeological Road Data to Evaluate Limits of Topography on Road Location: Roman Roads in the Near East as a Test Case. _Journal of Archaeological Method and Theory_ 33(3), 28, <https://doi.org/10.1007/s10816-026-09766-4>
+
+Visser, M., Lambers, K., Aitchinson, K., Jutte, A., Rocks-Macqueen, D., van der Knaap, L., Romanowska, I., Brughmans, T., Linseen, J., Pažout, A. (2025): Lessons Learned: Creating Tutorials to Teach Agent-Based Modelling to Archaeologists. _Journal of Computer Applications in Archaeology_ 8(1), 354-367, <https://doi.org/10.5334/jcaa.241>
+
+de Soto, P., Pažout, A., Brughmans, T. et al. (2025): Itiner-e: A high-resolution dataset of roads of the Roman Empire. _Nature Scientific Data_ 12 (1731), <https://doi.org/10.1038/s41597-025-06140-z>
+
 Pažout, A., (2025): Road and Transport Networks in Hellenistic and Roman Syria. In: Raja, R. (ed.) _The Oxford Handbook of the Hellenistic and Roman Near East_. Oxford: Oxford University Press, p. 295–310. <https://doi.org/10.1093/oxfordhb/9780190858155.013.85>
 
 Pažout, A., Eisenberg, M., Osband, M. (2024): Between Gaulanitis and Hippos: The Roman Road in the Southern Golan Heights in Context. Tel Aviv 51, 95-117. <https://doi.org/10.1080/03344355.2024.2327802>
